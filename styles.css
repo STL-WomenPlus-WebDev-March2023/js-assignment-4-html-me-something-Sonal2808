@@ -17,7 +17,7 @@ footer {
 }
 
 header {
-	padding: 1.875em 0;
+	padding: 1.575em 0;
 }
 
 header h1 {
@@ -28,7 +28,7 @@ header h1 {
 
 h1, h2, h3 {
     color:red;
-	margin: 0;
+	margin:auto;
     font-style: italic;
     font-display: block;
     text-decoration-line:underline;
@@ -39,7 +39,7 @@ h1 {
 }
 
 main h2 {
-	padding: 0.625em 0 0.625em 0.625em;
+	padding: 0.525em 0 0.525em 0.525em;
 }
 
 
@@ -68,14 +68,14 @@ nav ul li {
 }
 
 p {
-    margin:8px;
+    margin:auto;
     display:block;
 	padding: 1.25em;
 }
 
 figure {
 	margin: 25px;
-	padding: 50px;;
+	padding: 40px;;
 	text-align: center;
 }
 
