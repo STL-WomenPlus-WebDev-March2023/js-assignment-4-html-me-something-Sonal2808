@@ -1,1 +1,116 @@
 /* Write your CSS here! */
+body {
+	width: 100%;
+	max-width: 1030px;
+	margin-left: 8px;
+    margin-right: 8px;
+	background-color:white;
+	font-size: 30.5%;
+    display:block
+}
+
+header,
+main,
+footer {
+	background-color:antiquewhite;
+	font-size: 3.6em;
+    margin-left: 8px;
+}
+
+header {
+	padding: 1.875em 0;
+}
+
+header h1 {
+    color:red;
+	text-align: center;
+    font-style: oblique;
+}
+
+h1, h2, h3 {
+    color:brown;
+	margin: 0;
+    font-style: italic;
+    font-display: block;
+    text-decoration-line:underline;
+}
+
+h1 {
+	font-size: 3.5em;
+}
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+}
+
+
+section {
+	margin: 1.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+nav ul {
+   color:brown;
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {    
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+
+p {
+    margin:8px;
+    display:block;
+	padding: 1.25em;
+}
+
+figure {
+	margin: 25px;
+	padding: 50px;;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: center;
+	padding: 3em;
+}
+
+footer p {
+	display: inline-block;
+    font-style: italic;
+    text-decoration-line:underline;
+}
+.funParagraph{
+    color:green;
+}
+
+img {
+	width: 80%;
+	max-width: 80%;
+}
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+        
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
