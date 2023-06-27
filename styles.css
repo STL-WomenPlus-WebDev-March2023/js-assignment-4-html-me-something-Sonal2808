@@ -17,7 +17,7 @@ footer {
 }
 
 header {
-	padding: 1.575em 0;
+	padding: 1.575em;
 }
 
 header h1 {
@@ -56,7 +56,7 @@ section:last-child {
 }
 
 nav ul {
-   color:brown;
+   color:yellow;
 	text-align: center;
 	padding: 0;
 }
